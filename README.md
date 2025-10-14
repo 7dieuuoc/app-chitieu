@@ -34,30 +34,30 @@ lib/
 │   └── budget.dart
 │
 ├── services/                       # logic, API, database
-│   ├── auth_service.dart           # Người 1
-│   ├── transaction_service.dart    # Người 2
-│   ├── stats_service.dart          # Người 3
-│   └── api_service.dart            # Người 4
+│   ├── auth_service.dart           # Phần 1
+│   ├── transaction_service.dart    # Phần 2
+│   ├── stats_service.dart          # Phần 3
+│   └── api_service.dart            # Phần 4
 │
 ├── screens/                        # giao diện chính, chia cho từng người
-│   ├── auth/                       # Người 1
+│   ├── auth/                       # Phần 1
 │   │   ├── login_screen.dart
 │   │   ├── register_screen.dart
 │   │   ├── forgot_password_screen.dart
 │   │   └── profile_screen.dart
 │   │
-│   ├── transaction/                # Người 2
+│   ├── transaction/                # Phần 2
 │   │   ├── add_transaction_screen.dart
 │   │   ├── category_screen.dart
 │   │   ├── transaction_list_screen.dart
 │   │   └── ocr_invoice_screen.dart
 │   │
-│   ├── statistics/                 # Người 3
+│   ├── statistics/                 # Phần 3
 │   │   ├── statistics_screen.dart
 │   │   ├── chart_screen.dart
 │   │   └── budget_screen.dart
 │   │
-│   ├── ai_features/                # Người 4
+│   ├── ai_features/                # Phần 4
 │   │   ├── prediction_screen.dart
 │   │   ├── api_test_screen.dart
 │   │   └── settings_screen.dart
